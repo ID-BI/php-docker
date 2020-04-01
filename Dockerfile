@@ -22,8 +22,3 @@ RUN /usr/sbin/install-php.sh
 # Download and install NodeJS
 ADD nodejs/00-install.sh /usr/sbin/install-node.sh
 RUN /usr/sbin/install-node.sh
-
-
-# Download and install serverless framework
-ADD serverless/00-install.sh /usr/sbin/install-serverless.sh
-RUN /usr/sbin/install-serverless.sh
