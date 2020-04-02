@@ -1,5 +1,5 @@
 # PHP DOCKER
-A docker container to handle dependencies, tests, and others
+A docker container to handle dependencies, tests, and others.
 
 ## TAGS
 * [**`latest`**](https://github.com/hitalos/php/blob/master/Dockerfile): For simple projects with faster deploy. Uses latest php and node
