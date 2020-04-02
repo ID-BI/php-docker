@@ -11,15 +11,15 @@ A docker container to handle dependencies, tests, and others.
   * `php` 7.4.4
   * `composer` 1.10.1
   * `phpunit` 9.0.2
-  * `node` 13.1.0
+  * `node` 12.15.0
   * `yarn` 1.22.4
-  * `npm` 6.14.4
+  * `npm` 12.15.0
   
  
-* `php73` (in progress)
-  * `php` 7.4.4
+* `php73` 
+  * `php` 7.3.16
   * `composer` 1.10.1
   * `phpunit` 9.0.2
-  * `node` 13.1.0
+  * `node` 12.15.0
   * `yarn` 1.22.4
-  * `npm` 6.14.4
+  * `npm` 12.15.0

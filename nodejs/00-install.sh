@@ -1,10 +1,10 @@
 #!/bin/sh
 
 # Install current LTS node version
-apk add -U nodejs-current
+apk add -U nodejs
 
 # Install latest NPM
-curl -s -L npmjs.org/install.sh | sh
+apk add -U npm
 
 # Install Yarn
 npm i -g yarn
