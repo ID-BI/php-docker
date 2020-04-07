@@ -9,7 +9,8 @@ RUN apk add --update git \
     py-pip \
     build-base \
     zip \
-    unzip
+    unzip \
+    jq
 
 RUN pip install --upgrade awscli s3cmd python-magic && \
     apk -v --purge del py-pip && \
